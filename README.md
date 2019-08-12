@@ -1,2 +1,2 @@
 # noxus
-spring boot web framework
+Spring boot web framework

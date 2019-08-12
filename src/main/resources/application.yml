@@ -1,0 +1,28 @@
+server:
+  compression:
+    enabled: false
+    min-response-size: 10B
+spring:
+  profiles:
+    active: dev
+  redis:
+    host: localhost
+    port: 6379
+
+
+
+mapper:
+  safe-update: true  #非特殊情况  必选
+  safe-delete: true
+  not-empty: true #检查 insert 与 update 的参数是否为空
+  use-java-type: true #参数  会被配置javaType  对于 继承PK<ID>的类需要
+  identity: MYSQL  #指定返回id的操作行为
+
+
+
+mybatis:
+  configuration:
+    default-enum-type-handler: org.apache.ibatis.type.EnumTypeHandler
+pagehelper:
+  reasonable: true
+
