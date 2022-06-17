@@ -18,7 +18,7 @@
     <description>Demo project for Spring Boot</description>
 
     <properties>
-        <fastjson>1.2.58</fastjson>
+        <fastjson>1.2.83</fastjson>
         <druid>1.1.18</druid>
         <mapper.version>2.1.5</mapper.version>
         <mybatis.version>2.1.0</mybatis.version>
